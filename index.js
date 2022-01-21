@@ -17,6 +17,8 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
+//nestedFunction can access the variable 'internal' because of the closure that is created when nestedFunction is called at the end of myFunction. 
+//Because of lexical scoping, nested functions have access to the variables declared within the the function in which they were declared.
 
 
 
